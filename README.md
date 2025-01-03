@@ -30,10 +30,10 @@ I hope this leads to some interesting and enjoyable analysis!
 | boatclass           | string  | what [type of boat](https://en.wikipedia.org/wiki/Rowing_(sport)#Boat_classes) was used|
 | winner_station      | string  | which of the two [stations](https://en.wikipedia.org/wiki/Henley_Royal_Regatta#Racing) the winner began from (either Bucks or Berks)|
 | time                | string  | time at which race started - note that most of the races were recorded as 2:00am, I changed these as None|
-| date                | date    | date|
-| barrier_time        | float   | the time of the first boat to reach the ['barrier'](https://en.wikipedia.org/wiki/Henley_Royal_Regatta#Racing) checkpoint|
+| date                | date    | date of race|
+| barrier_time        | float   | the time in seconds for the first boat to reach the ['barrier'](https://en.wikipedia.org/wiki/Henley_Royal_Regatta#Racing) checkpoint|
 |barrier_loser_leading| bool    | if the eventual loser was ahead at the barrier|
-|fawley_time          | float   | the time of the first boat to reach the ['fawley'](https://en.wikipedia.org/wiki/Henley_Royal_Regatta#Racing) checkpoint|
+|fawley_time          | float   | the time (seconds) for the first boat to reach the ['fawley'](https://en.wikipedia.org/wiki/Henley_Royal_Regatta#Racing) checkpoint|
 |fawley_loser_leading | bool    | if the eventual loser was ahead at the fawley checkpoint|
-|finish_time          | float   | the winning time|
+|finish_time          | float   | the winning time in seconds|
 |verdict              | string  | the distance betweeen the boats at the finish - mostly done in relative boatlengths (e.g 1 boat length - which varies between classes).|
