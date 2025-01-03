@@ -21,19 +21,19 @@ I hope this leads to some interesting and enjoyable analysis!
 
 | column_name         | type    | description |
 | --------            | ------- | ---------|
-| winner              | string  | winning crew - differs from club in that clubs can enter multiple crews in an event|
+| winner              | string  | winning crew - differs from club in that clubs can enter multiple crews in an event in a given year|
 | winning_club        | string  | club of the winning crew|
-| loser               | string  | losing crew - see above|
+| loser               | string  | losing crew - see winner above|
 | losing_club         | string  | club of the losing crew|
-| cup                 | string  | the event in which the race took place|
+| cup                 | string  | the [event](https://www.hrr.co.uk/events-overview/) in which the race took place|
 | stage               | string  | what stage of the competition (heats, semi-finals, or finals)|
-| boatclass           | string  | what [type of boat]([url](https://en.wikipedia.org/wiki/Rowing_(sport)#Boat_classes)) was used|
-| winner_station      | string  | which of the two stations the winner began from (either Bucks or Berks)|
-| time                | string  | time at which race started - note that most of the races were recorded as 2:00am, I recorded these as None|
+| boatclass           | string  | what [type of boat](https://en.wikipedia.org/wiki/Rowing_(sport)#Boat_classes) was used|
+| winner_station      | string  | which of the two [stations](https://en.wikipedia.org/wiki/Henley_Royal_Regatta#Racing) the winner began from (either Bucks or Berks)|
+| time                | string  | time at which race started - note that most of the races were recorded as 2:00am, I changed these as None|
 | date                | date    | date|
-| barrier_time        | float   | the time of the first boat to reach the 'barrier' checkpoint|
+| barrier_time        | float   | the time of the first boat to reach the ['barrier'](https://en.wikipedia.org/wiki/Henley_Royal_Regatta#Racing) checkpoint|
 |barrier_loser_leading| bool    | if the eventual loser was ahead at the barrier|
-|fawley_time          | float   | the time of the first boat to reach the 'fawley' checkpoint|
+|fawley_time          | float   | the time of the first boat to reach the ['fawley'](https://en.wikipedia.org/wiki/Henley_Royal_Regatta#Racing) checkpoint|
 |fawley_loser_leading | bool    | if the eventual loser was ahead at the fawley checkpoint|
 |finish_time          | float   | the winning time|
 |verdict              | string  | the distance betweeen the boats at the finish - mostly done in relative boatlengths (e.g 1 boat length - which varies between classes).|
