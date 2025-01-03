@@ -7,13 +7,13 @@ Each race is a head-to-head, knockout-style affair. Crews will race once a day, 
 
 The files in this repository document the scraping and cleaning process.
 
-henley_scraper.py for the scraper
+For the scraper programme: henley_scraper.py
 
-scraped_results_v2.json for the raw results
+For the raw scraped results: scraped_results_v2.json
 
-cleaning_and_transformation.ipnyb for the cleaning of the data
+For cleaning and transformation of the data: cleaning_and_transformation.ipnyb
 
-For the results, henley_results_cleaned.csv.
+For the results, henley_results_cleaned.csv
 
 I hope this leads to some interesting and enjoyable analysis!
 
