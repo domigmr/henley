@@ -1,7 +1,7 @@
 # henley
 Scraped results from the [Henley Royal Regatta website](https://www.hrr.co.uk/results/?result-page=1).
 
-[Henley Royal Regatta]([url](https://www.hrr.co.uk/)) is a multi-day rowing competition that takes place in the town of Henley, England each year. It's been running since 1839, with a few breaks for the world wars and covid.
+Henley Royal Regatta is a multi-day rowing competition that takes place in the town of Henley, England each year. It's been running since 1839, with a few breaks for the world wars and covid.
 
 Each race is a head-to-head, knockout-style affair. Crews will race once a day, progressing to the next day if they win. The finals are always raced on Sunday.
 
